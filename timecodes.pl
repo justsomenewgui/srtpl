@@ -68,7 +68,6 @@ sub timecodes {
 	}
     }
     my $newLine = "$hourLine:$minLine:$secLine,$msLine"; 
-    #print "$msLine\n";
     return $newLine;
 }
 
